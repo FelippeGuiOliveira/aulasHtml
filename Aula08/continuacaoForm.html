@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XXX</title>
+</head>
+
+<body>
+
+    <form action="" >
+        <fieldset>
+            <legend>Cadastro do Cliente:</legend>
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" placeholder="Nome"><br><br>
+            <label for="email">Email</label>
+            <input type="text" id="email" placeholder="E-mail">
+            <label for="contato">Contato: </label>
+            <input type="text" id="contato" placeholder="contato">
+        </fieldset>
+        <fieldset>
+            <legend>Escolha um carro:</legend>
+            <select name="carros" id="carros">
+                <option hidden disabled selected>Selecione</option>
+                <option value="evoque">Evoque</option>
+                <option value="celta">Celta</option>
+                <option value="fusca">Fusca</option>
+                <option value="jetta">Jetta</option>
+                <option value="hb20">HB20</option>
+                <option value="mercedes">Mercedes GLE</option>
+            </select><br><br>
+            <input autocomplete="on" list="regiao" placeholder="Sua Região">
+            <datalist id="regiao">
+                <option value="São Paulo"></option>
+                <option value="Juquitiba"></option>
+                <option value="Paraná"></option>
+                <option value="Acapuco"></option>
+            </datalist><br><br>
+            <input type="range" name="" id=""><br>
+        </fieldset><br>
+        <textarea name="" id="" cols="50" rows="25" placeholder="escreva aqui" required minlength="100"></textarea><br><br>
+        <input type="submit" value="Enviar">
+
+    </form>
+</body>
+
+</html>
